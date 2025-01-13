@@ -1,2 +1,7 @@
-package com.example.toureksamen.repositories;public interface TeamRepository {
+package com.example.toureksamen.repositories;
+
+import com.example.toureksamen.models.Team;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface TeamRepository extends JpaRepository<Team, Long> {
 }
